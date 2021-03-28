@@ -1,13 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Tanha;
+  src: url('./fonts/Tanha.eot');
+  src: url('./fonts/Tanha.eot?#iefix') format('Tanha-opentype'),
+    url('./fonts/Tanha.woff') format('woff'),
+    url('./fonts/Tanha.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: Tanha, sans-serif;
 }
