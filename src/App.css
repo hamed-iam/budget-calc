@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body {
-  background: var(--mainGrey);
+  background: linear-gradient(to right, #6441a5, #2a0845);
   color: var(--mainBlack);
   font-family: 'Roboto', sans-serif;
 }
@@ -120,8 +120,8 @@ label {
   font-size: 1rem;
   color: var(--mainWhite);
   background-color: var(--primaryColor);
-  border-radius: 2px;
-  padding: 1px 3px;
+  border-radius: 5px;
+  padding: 5px 5px;
 }
 .clear-btn,
 .edit-btn {
@@ -141,8 +141,8 @@ label {
   font-weight: 300;
   color: var(--mainWhite);
   background-color: var(--primaryColor);
-  border-radius: 2px;
-  padding: 2px 5px;
+  border-radius: 5px;
+  padding: 2px 10px;
 }
 .alert {
   padding: 0.75rem 1.25rem;
